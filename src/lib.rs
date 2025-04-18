@@ -1,3 +1,5 @@
+// Copyright 2025 Christopher Patton
+
 //! The approximate heavy hitters protocol of [[RZCGP24], Section 5].
 //!
 //! This crate implements a [`Vdaf`](prio::vdaf::Vdaf) for securely computing the heavy hitters
