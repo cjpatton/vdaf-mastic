@@ -1,4 +1,4 @@
-# Variants of the VDAF Mastic
+# Mastic variants
 
 WARNING: This code is not yet production ready.
 
