@@ -1,0 +1,16 @@
+[package]
+name = "vdaf-mastic"
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+prio = { git = "https://github.com/divviup/libprio-rs", rev = "656101ffb7007be0a8fb82c8cc51f7f6d61f0268" }
+
+
+[dependencies]
+prio = { workspace = true, features = ["experimental"] }
+rand = "0.8"
+sha3 = "0.10.8"
+
+[dev-dependencies]
+prio = { workspace = true, features = ["test-util"] }
